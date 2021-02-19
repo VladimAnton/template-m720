@@ -1,0 +1,135 @@
+.row div {
+	height: 100%;
+}
+p {
+	text-align : justify;
+}
+.text {
+	background:#EBDEAA;
+	width:100%;
+	height: 100%;
+	text-transform: uppercase;
+    padding: 1px 0 5px;
+}
+h1 {
+	font : bold 150% Verdana, Arial, Helvetica, sans-serif; 
+	color : #B8860B;
+	text-align : center;
+}
+h2 {
+font : bold 120% Verdana, Arial, Helvetica, sans-serif;
+color : #800000;
+text-align : center;
+}
+h3 {
+font : bold 110% Verdana, Arial, Helvetica, sans-serif;
+color : #800000;
+text-align : center;
+padding : 0;
+}
+h4 {
+font : bold 100% Verdana, Arial, Helvetica, sans-serif;
+color : #333333;
+text-align : justify;
+}
+h5 {
+font : 70% Verdana, Arial, Helvetica, sans-serif;
+color : #333333;
+text-align : justify;
+}
+nav.container {
+	width:100%;
+	height: 100%;
+}
+
+img {
+  border:none; 
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+.img-responsive {
+	border:none; 
+	max-width:100%; 
+	height:auto;
+}
+
+header{
+	margin: 10px 0 20px;
+}
+#left-header {
+	height : 120px;
+    width :  100px;
+	float:left;
+	background-color: #EBDEAA;
+}
+#right-header {
+	height : 120px;
+    
+	background-color: #EBDEAA;
+}
+.menu {
+	background: #EBDEAA;
+	border: 0;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .19);
+	padding: 15px 0;
+}
+.navbar-brand {
+	padding-right: 80px;
+}
+.navbar-brand img{
+	position: relative;
+	top: -160px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #8d8c8c;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li.active-link > a {
+	border-bottom: 1px solid #d42819;
+	color: #8d8c8c;
+}
+.navbar-default .navbar-nav:not(.icons) > li > a:hover {
+	border-bottom: 1px solid #d42819;
+	color: #8d8c8c;
+}
+
+footer {
+	font : 100% Verdana, Arial, Helvetica, sans-serif; 
+	color : #B8860B;
+	text-align : center;
+}
+
+/* Back to top button */
+#back-to-top{
+	position:fixed; 
+	z-index: 999; 
+	display:none; 
+	bottom:70px; 
+	right:15px; 
+	cursor:pointer;
+}
+#back-to-top i{
+	width: 50px; 
+	height: 50px; 
+	display:block; 
+	color: #fff; 
+	background: #26ADE4; 
+	text-align:center; 
+	font-size:16px; 
+	line-height: 50px; 
+	border-radius: 5px;
+	-webkit-transition:  .3s all;
+	   -moz-transition:  .3s all;
+	    -ms-transition:  .3s all;
+	     -o-transition:  .3s all;
+	        transition:  .3s all;
+}
+#back-to-top i:hover{background:#333;}
+		
+@media screen and (max-width:768px) {
+img{max-width:100%; margin:0 auto}
+img.animate1{transition:all 1s ease}
+img.animate1:hover{transform:scale(2)}
+}
